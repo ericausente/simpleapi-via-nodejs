@@ -1,5 +1,11 @@
-Here are the general steps to build a simple Node.js application in Docker:
-Create a new directory for your Node.js application.
-Inside the new directory, create a new file called "package.json" and add the following code:
+Here are the general steps to build a simple Node.js application in Docker. 
+Make sure you have a Docker installed. 
 
+Then, a new file should be created called "package.json" and an index.js
 
+'''
+docker build -t simple-api-app .
+docker run -dp 8000:3000 your-app-name
+'''
+
+The Node.js application should now be running in a Docker container and accessible via http://localhost:8000 in your web browser.
