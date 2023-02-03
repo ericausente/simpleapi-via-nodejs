@@ -4,6 +4,8 @@ Make sure you have a Docker installed.
 Then, a new file should be created called "package.json" and an index.js
 
 ```
+git clone https://github.com/ericausente/simpleapi-via-nodejs.git
+cd simpleapi-via-nodejs
 docker build -t simple-api-app .
 docker run -dp 8000:3000 your-app-name
 ```
