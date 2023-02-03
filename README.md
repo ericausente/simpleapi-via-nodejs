@@ -14,11 +14,11 @@ The Node.js application should now be running in a Docker container and accessib
 
 Access with the following endpoints: 
 
-http://10.201.10.147:8001/ 
+# http://10.201.10.147:8001/ 
 ## Output: Hello, you are visiting the / from Node.js in Docker!
 
-http://10.201.10.147:8001/coffee
+# http://10.201.10.147:8001/coffee
 ## Output: Hello, you are visiting the /coffee from Node.js in Docker!
 
-http://10.201.10.147:8001/tea
+# http://10.201.10.147:8001/tea
 ## Hello, you are visiting the /tea from Node.js in Docker!
